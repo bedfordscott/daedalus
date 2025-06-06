@@ -248,7 +248,7 @@
     "moment": "2.29.0",
     "nanoid": "3.2.0",
     "node-downloader-helper": "1.0.18",
-    "node-hid": "2.1.2",
+    "node-hid": "3.0.0",
     "omit-deep-lodash": "1.1.5",
     "pbkdf2": "3.1.2",
     "pdfkit": "0.8.3",
