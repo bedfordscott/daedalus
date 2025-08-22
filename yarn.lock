@@ -4996,7 +4996,14 @@ bindings@^1.3.0, bindings@^1.4.0, bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
-bip39@3.0.4, bip39@^3.0.2:
+bip39@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/bip39/-/bip39-3.1.0.tgz#c55a418deaf48826a6ceb34ac55b3ee1577e18a3"
+  integrity sha512-c9kiwdk45Do5GL0vJMe7tS95VjCii65mYAH7DfWl3uW8AVzXKQVUm64i3hzVybBDMp9r7j9iNxR85+ul8MdN/A==
+  dependencies:
+    "@noble/hashes" "^1.2.0"
+
+bip39@^3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/bip39/-/bip39-3.0.4.tgz#5b11fed966840b5e1b8539f0f54ab6392969b2a0"
   dependencies:
@@ -5577,9 +5584,10 @@ caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001332:
   version "1.0.30001335"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001335.tgz#899254a0b70579e5a957c32dced79f0727c61f2a"
 
-cardano-crypto.js@5.3.6-rc.6:
-  version "5.3.6-rc.6"
-  resolved "https://registry.yarnpkg.com/cardano-crypto.js/-/cardano-crypto.js-5.3.6-rc.6.tgz#855d247158a1ee220671522fb192bf4b90b90388"
+cardano-crypto.js@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cardano-crypto.js/-/cardano-crypto.js-6.0.0.tgz#6aac02c54e0047e47477e88cebb02acd2c168616"
+  integrity sha512-r9wcFFfW+bq5+bn6ZBueMkLbUiySP901zHoyM8HNN8hfHEAkO3GHUMkzJutqpIG07qR84mQDqq0WjktMsqO8AA==
   dependencies:
     bech32 "^1.1.4"
     bip39 "^3.0.2"
